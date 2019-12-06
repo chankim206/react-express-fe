@@ -20,7 +20,7 @@ function Pagination({ currentPage, todosPerPage, totalTodos, changePage }) {
           >
             <a
               onClick={() => changePage(number)}
-              href="!#"
+              href="#!"
               className="page-link"
             >
               {number}
