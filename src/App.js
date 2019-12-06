@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import Customers from "./components/customers/customers";
+import Posts from "./components/posts/post";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>Welcome to React</p>
       </header>
-      <Customers />
+      <Posts />
     </div>
   );
 }
