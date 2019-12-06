@@ -1,0 +1,34 @@
+.pagination {
+  display: inline-block;
+}
+
+.page-item {
+  float: left;
+  padding: 0.5rem 1rem;
+  list-style: none;
+  background-color: #fff;
+  transition: background-color 0.5s;
+}
+
+.page-item:hover:not(.current) {
+  cursor: pointer;
+  background-color: #209cee;
+}
+
+.page-link {
+  text-decoration: none;
+}
+
+.page-item:hover > a:not(.current) {
+  color: #fff;
+}
+
+.current {
+  background-color: steelblue;
+  cursor: not-allowed;
+}
+
+.current a {
+  color: #fff;
+  cursor: not-allowed;
+}
